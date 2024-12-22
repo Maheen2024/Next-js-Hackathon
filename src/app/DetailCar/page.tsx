@@ -44,7 +44,7 @@ export default function page() {
         $80.00 / <span className="text-gray-500 text-sm lg:text-base">day $100.00</span>
       </h1>
     </div>
-    <Link href={"/payment"}>
+    <Link href={"/PaymentGetway"}>
       <button className="bg-[#3563e9] hover:bg-[#264ac6] transition-all p-3 sm:p-4 px-6 sm:px-10 text-nowrap  text-white rounded-md w-full max-w-[180px] text-center">
         Rent Now
       </button>
@@ -102,7 +102,7 @@ export default function page() {
               <p>
                 $99.00/<span className="text-gray-500">day</span>
               </p>
-              <Link href={'/payment'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
+              <Link href={'/PaymentGetway'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
             </CardFooter>
           </Card>
 
@@ -130,7 +130,7 @@ export default function page() {
       <section className="popular w-full flex flex-col gap-5">
         <div className="first w-full flex items-center justify-between px-10 xl:px-14">
           <h1 className="text-gray-500 text-lg sm:text-xl">Recomendation Car</h1>
-          <Link href={"/categories"}>
+          <Link href={"/CarCategories"}>
             <h1 className="text-[#3563e9] font-bold hover:underline decoration-[#3563e9]">
               View All
             </h1>

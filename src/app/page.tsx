@@ -1,17 +1,11 @@
-"use client"
-
-
-
-import CarRentalComponent from "./component.tsx/CarRentalComponent";
+import HomePage from "@/components/HomePage";
 
 
 export default function Home() {
   return (
     <div>
-      <CarRentalComponent/>
-        {/* <FilterComponent  /> */}
+      <HomePage/>
     </div>
-
-
   );
 }
+
