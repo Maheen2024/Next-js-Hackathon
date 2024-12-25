@@ -29,7 +29,7 @@ const HomePage = () => {
       <section className="popular w-full flex flex-col gap-4">
         <div className="first w-full flex items-center justify-between">
           <h1 className="text-gray-500 text-lg sm:text-xl">Popular Car</h1>
-          <Link href={"/categories"}>
+          <Link href={"/CarCategories"}>
             <h1 className="text-[#3563e9] font-bold hover:underline decoration-[#3563e9]">
               View All
             </h1>
@@ -52,7 +52,8 @@ const HomePage = () => {
               <p>
                 $99.00/<span className="text-gray-500">day</span>
               </p>
-              <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
+              <Link href={'/DetailCar'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
+              {/* <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button> */}
             </CardFooter>
           </Card>
 
@@ -72,8 +73,7 @@ const HomePage = () => {
               <p>
                 $99.00/<span className="text-gray-500">day</span>
               </p>
-              <Link href={'/payment'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
-            </CardFooter>
+              <Link href={'/DetailCar'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>            </CardFooter>
           </Card>
 
         
@@ -92,8 +92,7 @@ const HomePage = () => {
               <p>
                 $99.00/<span className="text-gray-500">day</span>
               </p>
-              <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
-            </CardFooter>
+              <Link href={'/DetailCar'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>            </CardFooter>
           </Card>
 
      
@@ -112,8 +111,7 @@ const HomePage = () => {
               <p>
                 $99.00/<span className="text-gray-500">day</span>
               </p>
-              <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
-            </CardFooter>
+              <Link href={'/DetailCar'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>            </CardFooter>
           </Card>
         </div>
       </section>
@@ -138,8 +136,7 @@ const HomePage = () => {
               <p>
                 $99.00/<span className="text-gray-500">day</span>
               </p>
-              <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
-            </CardFooter>
+              <Link href={'/DetailCar'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>            </CardFooter>
           </Card>
 
           
@@ -158,8 +155,7 @@ const HomePage = () => {
               <p>
                 $99.00/<span className="text-gray-500">day</span>
               </p>
-              <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
-            </CardFooter>
+              <Link href={'/DetailCar'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>            </CardFooter>
           </Card>
 
           
@@ -178,8 +174,7 @@ const HomePage = () => {
               <p>
                 $99.00/<span className="text-gray-500">day</span>
               </p>
-              <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
-            </CardFooter>
+              <Link href={'/DetailCar'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>            </CardFooter>
           </Card>
 
           
@@ -198,8 +193,7 @@ const HomePage = () => {
               <p>
                 $99.00/<span className="text-gray-500">day</span>
               </p>
-              <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
-            </CardFooter>
+              <Link href={'/DetailCar'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>            </CardFooter>
           </Card>
         </div>
         <div className="sec grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -219,8 +213,7 @@ const HomePage = () => {
               <p>
                 $99.00/<span className="text-gray-500">day</span>
               </p>
-              <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
-            </CardFooter>
+              <Link href={'/DetailCar'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>            </CardFooter>
           </Card>
 
           
@@ -239,8 +232,7 @@ const HomePage = () => {
               <p>
                 $99.00/<span className="text-gray-500">day</span>
               </p>
-              <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
-            </CardFooter>
+              <Link href={'/DetailCar'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>            </CardFooter>
           </Card>
 
           
@@ -259,8 +251,7 @@ const HomePage = () => {
               <p>
                 $99.00/<span className="text-gray-500">day</span>
               </p>
-              <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
-            </CardFooter>
+              <Link href={'/DetailCar'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>            </CardFooter>
           </Card>
 
           
@@ -279,8 +270,7 @@ const HomePage = () => {
               <p>
                 $99.00/<span className="text-gray-500">day</span>
               </p>
-              <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button>
-            </CardFooter>
+              <Link href={'/DetailCar'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>            </CardFooter>
           </Card>
         </div>
       </section>
